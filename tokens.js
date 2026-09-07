@@ -77,21 +77,7 @@ export default [
         },
         selfMute: false,
     },
-        {
-        channelId: "1482561184644337794",
-        serverId: "1294079344401977394",
-        token: process.env.token6,
-        selfDeaf: true,
-        autoReconnect: {
-            enabled: true,
-            delay: 10000, // ساعه
-            maxRetries: 5000,
-        },
-        presence: {
-            status: "Invisible",
-        },
-        selfMute: true,
-    },
+
     
 
 ];
