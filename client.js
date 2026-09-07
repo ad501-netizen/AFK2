@@ -201,3 +201,5 @@ export class voiceClient extends EventEmitter {
     disconnect() {
         this.cleanup();
         this.emit('debug', 'Client manually disconnected');
+    }
+}
