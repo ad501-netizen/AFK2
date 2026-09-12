@@ -17,7 +17,7 @@ export default [
     },
 
     {
-        channelId: "1078359015123329075",
+        channelId: "1463475299063955547",
         serverId: "946105715506958346",
         token: process.env.token2,
         selfDeaf: false,
