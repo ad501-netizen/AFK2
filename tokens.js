@@ -82,16 +82,16 @@ export default [
         channelId: "1463474498383908996",
         serverId: "946105715506958346",
         token: process.env.token6,
-        selfDeaf: true,
+          selfDeaf: false,
         autoReconnect: {
-            enabled: true,
-            delay: 100000, // ساعه
-            maxRetries: 5000,
+            enabled: false,
+            delay: 5, // ثواني
+            maxRetries: 5,
         },
         presence: {
             status: "Invisible",
         },
-        selfMute: true,
+        selfMute: false,
     },
 
 
