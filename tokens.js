@@ -11,7 +11,7 @@ export default [
             maxRetries: 5000,
         },
         presence: {
-            status: "Invisible",
+            status: "Do Not Disturb",
         },
         selfMute: true,
     },
