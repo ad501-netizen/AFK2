@@ -6,14 +6,14 @@ export default [
         token: process.env.token1,
         selfDeaf: true,
         autoReconnect: {
-            enabled: true,
+            enabled: false,
             delay: 100000, // ساعه
             maxRetries: 5000,
         },
         presence: {
             status: "Do Not Disturb",
         },
-        selfMute: false,
+        selfMute: true,
     },
 
     {
